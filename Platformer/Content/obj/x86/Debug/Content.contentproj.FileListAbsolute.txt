@@ -2,3 +2,4 @@ C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Content\obj
 C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Master\Downloads\170 prototype\Platformer\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Admin 2\Downloads\170 prototype\Platformer\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
+C:\Users\Admin 2\Downloads\dnEsrolaV\Platformer\Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache

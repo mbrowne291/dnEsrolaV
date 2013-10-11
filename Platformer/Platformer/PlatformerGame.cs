@@ -1,6 +1,6 @@
 #region File Description
 //-----------------------------------------------------------------------------
-// PlatformerGame.cs
+// ValorsEndGame.cs
 //
 // Microsoft XNA Community Game Platform
 // Copyright (C) Microsoft Corporation. All rights reserved.
@@ -17,12 +17,12 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Input.Touch;
 
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class PlatformerGame : Microsoft.Xna.Framework.Game
+    public class ValorsEndGame : Microsoft.Xna.Framework.Game
     {
 
         #region ChargeSwitch Durations
@@ -120,7 +120,7 @@ namespace Platformer
         // or handle exceptions, both of which can add unnecessary time to level loading.
         private const int numberOfLevels = 5;
 
-        public PlatformerGame()
+        public ValorsEndGame()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -217,9 +217,25 @@ namespace Platformer
             //if(!initCamera)cam.Pos = new Vector2(level.player1.position.X,level.player1.position.Y);
             if (!initCamera)
             {
-                cam.Pos = new Vector2(cam.Pos.X, level.player1.position.Y);
-                if(level.player1.position.X - cam.Pos.X < -200) cam.Move(new Vector2(-4,0));
-                if (level.player1.position.X - cam.Pos.X > 200) cam.Move(new Vector2(4, 0));
+                cam.Pos = new Vector2((level.player1.position.X + level.player2.position.X)/2, (level.player1.position.Y + level.player2.position.Y)/2);
+
+                double camWidth = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width/1.1f)*cam.Zoom;
+                double camHeight = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 1.1f) * cam.Zoom;
+
+                if (level.player1.position.X < 0 || level.player1.position.X > camWidth
+                    || level.player1.position.Y < 0 || level.player1.position.Y > camHeight
+                    || level.player2.position.X < 0 || level.player2.position.X > camWidth
+                    || level.player2.position.Y < 0 || level.player2.position.Y > camHeight) cam.Zoom -= 0.01f;
+
+                if (cam.Zoom < 1.1 &&  level.player1.position.X > camWidth * 0.1 && level.player1.position.X < camWidth * 0.9
+                    && level.player1.position.Y > camWidth * 0.1 && level.player1.position.Y < camHeight * 0.9
+                    && level.player2.position.X > camWidth * 0.1 && level.player2.position.X < camWidth * 0.9
+                    && level.player2.position.Y > camWidth * 0.1 && level.player2.position.Y < camHeight * 0.9) cam.Zoom += 0.01f;
+                
+                /*if ((level.player1.position.X + level.player2.position.X) >
+                    GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom) cam.Zoom -= 0.01f;
+                if ((level.player1.position.X + level.player2.position.X) <
+                    (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom ) ) cam.Zoom += 0.01f;*/
             }
 
 
@@ -323,7 +339,7 @@ namespace Platformer
             using (Stream fileStream = TitleContainer.OpenStream(levelPath))
                 level = new Level(Services, fileStream, levelIndex);
 
-            if (PlatformerGame.playerSparedBoss && PlatformerGame.levelIndex == 4)
+            if (ValorsEndGame.playerSparedBoss && ValorsEndGame.levelIndex == 4)
             {
                 level.MiniAlly = new Enemy(level, 
                     new Vector2(level.player1.position.X + 170, level.player1.position.Y + 170), "MonsterB");

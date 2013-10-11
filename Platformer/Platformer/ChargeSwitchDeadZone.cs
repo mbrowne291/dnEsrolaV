@@ -12,7 +12,7 @@ using System;
 using Microsoft.Xna.Framework.Input;
 #endregion
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// ChargeSwitch type for switching between dead-zone types.

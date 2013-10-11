@@ -9,7 +9,7 @@
 
 using Microsoft.Xna.Framework.Input.Touch;
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// Provides extension methods for the TouchCollection type.

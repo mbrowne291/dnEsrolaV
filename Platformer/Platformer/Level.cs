@@ -17,7 +17,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Input.Touch;
 using Microsoft.Xna.Framework.Input;
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// A uniform grid of tiles with collections of gems and enemies.
@@ -408,7 +408,7 @@ namespace Platformer
             player1.amplayer1 = true;
             player2.amplayer2 = true;
 
-            if (PlatformerGame.playerSparedBoss && PlatformerGame.levelIndex == 4)
+            if (ValorsEndGame.playerSparedBoss && ValorsEndGame.levelIndex == 4)
             {
                 MiniAlly.Update(gameTime, player1, player2);
                 MiniAlly.DoAttack(5, gameTime);
@@ -507,7 +507,7 @@ namespace Platformer
             {
                 enemy.Update(gameTime, player1, player2);
 
-                if (PlatformerGame.playerSparedBoss && PlatformerGame.levelIndex == 4 && enemy.isFinalBoss)
+                if (ValorsEndGame.playerSparedBoss && ValorsEndGame.levelIndex == 4 && enemy.isFinalBoss)
                 {
                     if ( (MiniAlly.triplefireHitbox1.Intersects(enemy.BoundingRectangle))
                         || (MiniAlly.triplefireHitbox3.Intersects(enemy.BoundingRectangle))
@@ -883,9 +883,9 @@ namespace Platformer
                 if (enemy.isMiniBoss && enemy.health < 400)
                 {
                     enemy.stuncooldown = 999;
-                    PlatformerGame.miniBossDown = true;
+                    ValorsEndGame.miniBossDown = true;
 
-                    if (PlatformerGame.levelIndex == 4) enemy.health = 399;
+                    if (ValorsEndGame.levelIndex == 4) enemy.health = 399;
                 }
                 if (enemy.hitcooldown >= 0) enemy.hitcooldown--;
                 if (enemy.health < 1 && enemy.isAlive)
@@ -893,8 +893,8 @@ namespace Platformer
                     enemy.monsterKilled.Play();
                     enemy.deathtimer = 130;
                     enemy.isAlive = false;
-                    if (enemy.isMiniBoss && PlatformerGame.levelIndex == 2 && !enemy.isAlive)
-                        PlatformerGame.playerStoleSoul = true;
+                    if (enemy.isMiniBoss && ValorsEndGame.levelIndex == 2 && !enemy.isAlive)
+                        ValorsEndGame.playerStoleSoul = true;
                 }
             }
             if (player1.hitcooldown >= 0) player1.hitcooldown--;
@@ -948,8 +948,8 @@ namespace Platformer
             Player2.OnReachedExit();
             exitReachedSound.Play();
             reachedExit = true;
-            if (PlatformerGame.levelIndex == 2 
-                && !PlatformerGame.playerStoleSoul) PlatformerGame.playerSparedBoss = true;
+            if (ValorsEndGame.levelIndex == 2 
+                && !ValorsEndGame.playerStoleSoul) ValorsEndGame.playerSparedBoss = true;
             
         }
 
@@ -989,7 +989,7 @@ namespace Platformer
 
             Player1.Draw(gameTime, spriteBatch);
 			Player2.Draw(gameTime, spriteBatch);
-            if (PlatformerGame.playerSparedBoss && PlatformerGame.levelIndex == 4) MiniAlly.Draw(gameTime, spriteBatch);
+            if (ValorsEndGame.playerSparedBoss && ValorsEndGame.levelIndex == 4) MiniAlly.Draw(gameTime, spriteBatch);
 
             foreach (Enemy enemy in enemies)
                 enemy.Draw(gameTime, spriteBatch);

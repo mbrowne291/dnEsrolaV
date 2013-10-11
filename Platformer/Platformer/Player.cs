@@ -14,7 +14,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// Our fearless adventurer!
@@ -262,7 +262,7 @@ namespace Platformer
             GetInput(keyboardState, gamePadState, touchState, accelState, orientation);
             ApplyPhysics(gameTime);
 
-            if(PlatformerGame.playerStoleSoul)fireSoul.X += fireSoulVelocity;
+            if(ValorsEndGame.playerStoleSoul)fireSoul.X += fireSoulVelocity;
 
             if (stamina < 120 && attackcooldown <= 0)
                 if (isBlocking) stamina += 0.375f;
@@ -587,7 +587,7 @@ namespace Platformer
             // If the player wants to jump
             if (attackcooldown <= 0 && isAlive && isMagicAttack)
             {
-                if (PlatformerGame.playerStoleSoul && stamina > 100)
+                if (ValorsEndGame.playerStoleSoul && stamina > 100)
                 {
                     attackTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
                     attackcooldown = 150;
@@ -866,7 +866,7 @@ namespace Platformer
             if (amplayer2) pcolor = player2color;
 
 
-            if (PlatformerGame.playerStoleSoul)
+            if (ValorsEndGame.playerStoleSoul)
                 spriteBatch.Draw(fireAttack, fireSoul, pcolor);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
             // Draw the player.

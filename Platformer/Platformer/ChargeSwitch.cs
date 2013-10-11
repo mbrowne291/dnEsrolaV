@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 #endregion
 
-namespace Platformer
+namespace ValorsEnd
 {
     /// <summary>
     /// A GamePad-controlled switch that fires after the switch "charges up"

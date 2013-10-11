@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Audio;
 
-namespace Platformer
+namespace ValorsEnd
 {
 
     /// <summary>
@@ -418,7 +418,7 @@ namespace Platformer
                             triplefireHitbox3.Y = (int)swordTip.Y;
                             if (left) fireballVelocity = -5;
                             else fireballVelocity = 5;
-                            if (PlatformerGame.playerSparedBoss && PlatformerGame.levelIndex == 4)
+                            if (ValorsEndGame.playerSparedBoss && ValorsEndGame.levelIndex == 4)
                             {
                                 left = false;
                                 
