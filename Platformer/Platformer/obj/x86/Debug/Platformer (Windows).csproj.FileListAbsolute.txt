@@ -1,0 +1,200 @@
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Gem.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Idle.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Run.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Idle.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Run.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Idle.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Run.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Idle.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Run.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Celebrate.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Die.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Idle.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Jump.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Run.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA0.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA1.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA2.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA3.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA4.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA5.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA6.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB0.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB1.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Platform.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_0.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_1.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_2.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_0.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_1.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_2.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_0.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_1.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_2.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_died.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_lose.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_win.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Exit.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Fonts\Hud.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\ExitReached.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\GemCollected.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\MonsterKilled.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerFall.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerJump.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerKilled.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Powerup.xnb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.wma
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\0.txt
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\2.txt
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\1.txt
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Gem.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Run.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Run.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Run.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Run.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Celebrate.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Die.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Jump.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Run.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA0.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA1.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA2.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA3.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA4.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA5.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA6.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB0.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB1.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Platform.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_0.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_1.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_2.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_0.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_1.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_2.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_0.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_1.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_2.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_died.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_lose.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_win.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Exit.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Fonts\Hud.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\ExitReached.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\GemCollected.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\MonsterKilled.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerFall.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerJump.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerKilled.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Powerup.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.wma
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\0.txt
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\2.txt
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Levels\1.txt
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\obj\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\gladius.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\melee.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sounds\throw.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\pink.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Death.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\black.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\green.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\red.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Death.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Death.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Death.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\shield_block.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\shield_idle.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\attack.xnb
+C:\Users\Master\Downloads\private\cs20\XNA example code\Platformer_4_0\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\block.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Gem.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Run.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Run.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Run.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Run.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Celebrate.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Die.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Jump.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Run.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA0.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA1.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA2.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA3.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA4.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA5.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockA6.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB0.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\BlockB1.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Platform.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_0.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_1.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer0_2.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_0.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_1.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer1_2.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_0.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_1.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Backgrounds\Layer2_2.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_died.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_lose.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Overlays\you_win.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\gladius.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Tiles\Exit.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\pink.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterC\Death.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\black.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\green.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\red.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterD\Death.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterB\Death.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\MonsterA\Death.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\shield_block.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\shield_idle.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\attack.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\block.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Fonts\Hud.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\ExitReached.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\GemCollected.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\MonsterKilled.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerFall.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerJump.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\PlayerKilled.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Powerup.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\melee.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\throw.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sounds\Music.wma
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Levels\0.txt
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Levels\2.txt
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Levels\1.txt
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\obj\x86\Debug\Platformer.exe
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\obj\x86\Debug\Platformer.pdb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\fireball.xnb
+C:\Users\Master\Downloads\170 prototype\Platformer\Platformer\bin\x86\Debug\Content\Sprites\Player\Crouch.xnb
