@@ -215,29 +215,7 @@ namespace ValorsEnd
             level.Update(gameTime, keyboardState, gamePadState1, gamePadState2, touchState,
                          accelerometerState, Window.CurrentOrientation);
             //if(!initCamera)cam.Pos = new Vector2(level.player1.position.X,level.player1.position.Y);
-            if (!initCamera)
-            {
-                cam.Pos = new Vector2((level.player1.position.X + level.player2.position.X)/2, (level.player1.position.Y + level.player2.position.Y)/2);
-
-                double camWidth = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width/1.1f)*cam.Zoom;
-                double camHeight = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 1.1f) * cam.Zoom;
-
-                if (level.player1.position.X < 0 || level.player1.position.X > camWidth
-                    || level.player1.position.Y < 0 || level.player1.position.Y > camHeight
-                    || level.player2.position.X < 0 || level.player2.position.X > camWidth
-                    || level.player2.position.Y < 0 || level.player2.position.Y > camHeight) cam.Zoom -= 0.01f;
-
-                if (cam.Zoom < 1.1 &&  level.player1.position.X > camWidth * 0.1 && level.player1.position.X < camWidth * 0.9
-                    && level.player1.position.Y > camWidth * 0.1 && level.player1.position.Y < camHeight * 0.9
-                    && level.player2.position.X > camWidth * 0.1 && level.player2.position.X < camWidth * 0.9
-                    && level.player2.position.Y > camWidth * 0.1 && level.player2.position.Y < camHeight * 0.9) cam.Zoom += 0.01f;
-                
-                /*if ((level.player1.position.X + level.player2.position.X) >
-                    GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom) cam.Zoom -= 0.01f;
-                if ((level.player1.position.X + level.player2.position.X) <
-                    (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom ) ) cam.Zoom += 0.01f;*/
-            }
-
+         
 
             bool setSelectedplayer = false; // give preference to earlier controllers
             for (int i = 0; i < 4; i++)
@@ -390,6 +368,7 @@ namespace ValorsEnd
                 // cam.Zoom = 0.5f // Example of Zoom out
                 initCamera = false;
             }
+
             
             spriteBatch.Begin(SpriteSortMode.Deferred,
                         BlendState.AlphaBlend,
@@ -406,6 +385,33 @@ namespace ValorsEnd
             spriteBatch.End();
 
             base.Draw(gameTime);
+
+            if (!initCamera)
+            {
+                cam.Pos = new Vector2((level.player1.position.X + level.player2.position.X) / 2, (level.player1.position.Y + level.player2.position.Y) / 2);
+
+                double camStartX = cam.Pos.X - graphics.PreferredBackBufferWidth/2/cam.Zoom;// +graphics.PreferredBackBufferWidth / cam.Zoom;
+                double camEdgeX = camStartX + graphics.PreferredBackBufferWidth / cam.Zoom;
+                double camWidth = camEdgeX - camStartX;//(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 1.1f);//*cam.Zoom;
+                double camStartY = cam.Pos.Y - graphics.PreferredBackBufferHeight / 2 / cam.Zoom;
+                double camEdgeY = camStartY + graphics.PreferredBackBufferHeight / cam.Zoom;
+                double camHeight = camEdgeY - camStartY;//(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 1.1f);// * cam.Zoom;
+
+                if (level.player1.position.X < camStartX * 1.1 || level.player1.position.X > camEdgeX * 0.96
+                    || level.player1.position.Y < camStartY * 1.1 || level.player1.position.Y > camEdgeY * 0.96
+                    || level.player2.position.X < camStartX * 1.1 || level.player2.position.X > camEdgeX * 0.96
+                    || level.player2.position.Y < camStartY * 1.1 || level.player2.position.Y > camEdgeY * 0.96) cam.Zoom -= 0.005f;
+
+                else if (cam.Zoom < 1.5 && level.player1.position.X > camStartX * 1.2 && level.player1.position.X < camEdgeX * 0.9
+                    && level.player1.position.Y > camStartY * 1.2 && level.player1.position.Y < camEdgeY * 0.9
+                    && level.player2.position.X > camStartX * 1.2 && level.player2.position.X < camEdgeX * 0.9
+                    && level.player2.position.Y > camStartY * 1.2 && level.player2.position.Y < camEdgeY * 0.9) cam.Zoom += 0.005f;
+
+                /*if ((level.player1.position.X + level.player2.position.X) >
+                    GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom) cam.Zoom -= 0.01f;
+                if ((level.player1.position.X + level.player2.position.X) <
+                    (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width*3/cam.Zoom ) ) cam.Zoom += 0.01f;*/
+            }
         }
 
         private void DrawHud()
