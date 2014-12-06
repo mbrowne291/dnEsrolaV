@@ -116,6 +116,64 @@ TextureImporter:
     21300222: blueyoko_110
     21300224: blueyoko_111
     21300226: blueyoko_112
+    21300228: blueyoko_113
+    21300230: blueyoko_114
+    21300232: blueyoko_115
+    21300234: blueyoko_116
+    21300236: blueyoko_117
+    21300238: blueyoko_118
+    21300240: blueyoko_119
+    21300242: blueyoko_120
+    21300244: blueyoko_121
+    21300246: blueyoko_122
+    21300248: blueyoko_123
+    21300250: blueyoko_124
+    21300252: blueyoko_125
+    21300254: blueyoko_126
+    21300256: blueyoko_127
+    21300258: blueyoko_128
+    21300260: blueyoko_129
+    21300262: blueyoko_130
+    21300264: blueyoko_131
+    21300266: blueyoko_132
+    21300268: blueyoko_133
+    21300270: blueyoko_134
+    21300272: blueyoko_135
+    21300274: blueyoko_136
+    21300276: blueyoko_137
+    21300278: blueyoko_138
+    21300280: blueyoko_139
+    21300282: blueyoko_140
+    21300284: blueyoko_141
+    21300286: blueyoko_142
+    21300288: blueyoko_143
+    21300290: blueyoko_144
+    21300292: blueyoko_145
+    21300294: blueyoko_146
+    21300296: blueyoko_147
+    21300298: blueyoko_148
+    21300300: blueyoko_149
+    21300302: blueyoko_150
+    21300304: blueyoko_151
+    21300306: blueyoko_152
+    21300308: blueyoko_153
+    21300310: blueyoko_154
+    21300312: blueyoko_155
+    21300314: blueyoko_156
+    21300316: blueyoko_157
+    21300318: blueyoko_158
+    21300320: blueyoko_159
+    21300322: blueyoko_160
+    21300324: blueyoko_161
+    21300326: blueyoko_162
+    21300328: blueyoko_163
+    21300330: blueyoko_164
+    21300332: blueyoko_165
+    21300334: blueyoko_166
+    21300336: blueyoko_167
+    21300338: blueyoko_168
+    21300340: blueyoko_169
+    21300342: blueyoko_170
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -1282,6 +1340,586 @@ TextureImporter:
         serializedVersion: 2
         x: 1920
         y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_113
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_114
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_115
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_116
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_117
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_118
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_119
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_120
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_121
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_122
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_123
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_124
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3296
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_126
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_129
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_130
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_131
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_132
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_133
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_134
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_135
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_136
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_137
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_138
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_139
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_140
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_141
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_142
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_143
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_144
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_145
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_146
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_147
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_148
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_149
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3136
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_151
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_153
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_155
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_156
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_157
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_158
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_159
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_160
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_161
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_162
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_163
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_164
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_165
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_166
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_167
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_168
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_169
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2976
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blueyoko_170
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2976
         width: 160
         height: 160
       alignment: 0
