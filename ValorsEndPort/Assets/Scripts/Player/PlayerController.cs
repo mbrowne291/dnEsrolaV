@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public float maxJump = 5;
     public bool onGround = true;
     public Transform groundCheck;
-    float groundRadius = 0.2f;
+    float groundRadius = 0.02f;
     public LayerMask isGround;
     float terminalVelocity = -10;
     public GameObject attack1HitBox;
@@ -78,9 +78,9 @@ public class PlayerController : MonoBehaviour
             //if we're crouching, we need to stay crouched
             jump = -1;
             if (staminaCoolDown <= start && staminaCoolDown >= end)
-                crouchAttackHitBox.collider2D.enabled = true;
+                crouchAttackHitBox.GetComponent<Collider2D>().enabled = true;
             else
-                crouchAttackHitBox.collider2D.enabled = false;
+                crouchAttackHitBox.GetComponent<Collider2D>().enabled = false;
             
         } else
         {
@@ -88,9 +88,9 @@ public class PlayerController : MonoBehaviour
             //if not, we don't want to crouch until the attack is done
             isCrouching = false;
             if (staminaCoolDown <= start && staminaCoolDown >= end)
-                attackHitBox.collider2D.enabled = true;
+                attackHitBox.GetComponent<Collider2D>().enabled = true;
             else
-                attackHitBox.collider2D.enabled = false;
+                attackHitBox.GetComponent<Collider2D>().enabled = false;
             
         }
     }
@@ -150,14 +150,14 @@ public class PlayerController : MonoBehaviour
             }
         } else
         {
-            attack1HitBox.collider2D.enabled = false;
-            crouchAttack1HitBox.collider2D.enabled = false;
-            attack2HitBox.collider2D.enabled = false;
-            crouchAttack2HitBox.collider2D.enabled = false;
-            attack3HitBox.collider2D.enabled = false;
-            crouchAttack3HitBox.collider2D.enabled = false;
-            attack4HitBox.collider2D.enabled = false;
-            crouchAttack4HitBox.collider2D.enabled = false;
+            attack1HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack1HitBox.GetComponent<Collider2D>().enabled = false;
+            attack2HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack2HitBox.GetComponent<Collider2D>().enabled = false;
+            attack3HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack3HitBox.GetComponent<Collider2D>().enabled = false;
+            attack4HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack4HitBox.GetComponent<Collider2D>().enabled = false;
             crouchAttack = false;
         }
 
@@ -178,15 +178,7 @@ public class PlayerController : MonoBehaviour
         
         }
 
-        if (facingLeft)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-
-        
-        } else
-        {
-            transform.localScale = new Vector3(1, 1, 1);    
-        }
+        transform.localScale = facingLeft ? new Vector3(-1, 1, 1) : new Vector3(1, 1, 1);
 
 
         if (attackButton && onGround && !isRolling && stamina > 15)
@@ -221,7 +213,7 @@ public class PlayerController : MonoBehaviour
             anim.SetBool(onGroundHash, false);
             onGround = false;
             //this.rigidbody2D.AddForce(new Vector2 (0, maxJump));
-            this.rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, maxJump);
+            this.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, maxJump);
             
         }
 
@@ -319,13 +311,13 @@ public class PlayerController : MonoBehaviour
         if (slopeAngle != 0)
         {
             if (move < 0 && slopeAngle < 360 && slopeAngle > 180) //if we're moving right and the slope is negative
-                move = move / 2;
+                move = move * Mathf.Cos(slopeAngle);
             else if (move > 0 && slopeAngle > 0 && slopeAngle < 180) //if we're moving left and the slope is positive
-                move = move / 2;
+                move = move*Mathf.Cos(slopeAngle);
         }
 
 
-        this.rigidbody2D.velocity = new Vector2(move * currentSpeed, rigidbody2D.velocity.y);
+        this.GetComponent<Rigidbody2D>().velocity = new Vector2(move * currentSpeed, GetComponent<Rigidbody2D>().velocity.y);
 
         if (isRolling)
         {
@@ -336,28 +328,28 @@ public class PlayerController : MonoBehaviour
                     int rollSlow = 1;
                     if (slopeAngle < 360 && slopeAngle > 180)
                         rollSlow = 2;
-                    this.rigidbody2D.velocity = new Vector2(-walkSpeed * 3 / rollSlow, rigidbody2D.velocity.y);
+                    this.GetComponent<Rigidbody2D>().velocity = new Vector2(-walkSpeed * 3 / rollSlow, GetComponent<Rigidbody2D>().velocity.y);
                 } else
                 {
                     int rollSlow = 1;
                     if (slopeAngle > 0 && slopeAngle < 180)
                         rollSlow = 2;
-                    this.rigidbody2D.velocity = new Vector2(walkSpeed * 3 / rollSlow, rigidbody2D.velocity.y);
+                    this.GetComponent<Rigidbody2D>().velocity = new Vector2(walkSpeed * 3 / rollSlow, GetComponent<Rigidbody2D>().velocity.y);
                 }
                     
             } else
             {
                 if (facingLeft)
-                    this.rigidbody2D.velocity = new Vector2(-walkSpeed * 3, rigidbody2D.velocity.y);
+                    this.GetComponent<Rigidbody2D>().velocity = new Vector2(-walkSpeed * 3, GetComponent<Rigidbody2D>().velocity.y);
                 else
-                    this.rigidbody2D.velocity = new Vector2(walkSpeed * 3, rigidbody2D.velocity.y);
+                    this.GetComponent<Rigidbody2D>().velocity = new Vector2(walkSpeed * 3, GetComponent<Rigidbody2D>().velocity.y);
             }       
         }
 
 
-        anim.SetFloat(airVelocityHash, this.rigidbody2D.velocity.y);
+        anim.SetFloat(airVelocityHash, this.GetComponent<Rigidbody2D>().velocity.y);
 
-        anim.SetFloat(speedHash, Mathf.Abs(this.rigidbody2D.velocity.x));
+        anim.SetFloat(speedHash, Mathf.Abs(this.GetComponent<Rigidbody2D>().velocity.x));
 
 
     }
@@ -385,12 +377,12 @@ public class PlayerController : MonoBehaviour
             attackBuffer = 0;
             //this.rigidbody2D.AddForce(new Vector2 (0, maxJump));
             staminaCoolDown = 0.65f;
-            attack1HitBox.collider2D.enabled = false;
-            crouchAttack1HitBox.collider2D.enabled = false;
+            attack1HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack1HitBox.GetComponent<Collider2D>().enabled = false;
         }
         else
         {
-            anim.SetTrigger(EndAttackHash);
+            endAttack();
         }
 
     }
@@ -406,12 +398,12 @@ public class PlayerController : MonoBehaviour
             attackBuffer = 0;
             //this.rigidbody2D.AddForce(new Vector2 (0, maxJump));
             staminaCoolDown = 0.75f;
-            attack2HitBox.collider2D.enabled = false;
-            crouchAttack2HitBox.collider2D.enabled = false;
+            attack2HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack2HitBox.GetComponent<Collider2D>().enabled = false;
         }
         else
         {
-            anim.SetTrigger(EndAttackHash);
+            endAttack();
         }
     }
     
@@ -426,16 +418,16 @@ public class PlayerController : MonoBehaviour
             attackBuffer = 0;
             //this.rigidbody2D.AddForce(new Vector2 (0, maxJump));
             staminaCoolDown = 1f;
-            attack3HitBox.collider2D.enabled = false;
-            crouchAttack3HitBox.collider2D.enabled = false;
+            attack3HitBox.GetComponent<Collider2D>().enabled = false;
+            crouchAttack3HitBox.GetComponent<Collider2D>().enabled = false;
         }
         else
         {
-            anim.SetTrigger(EndAttackHash);
+            endAttack();
         }
     }
 
-    void endAtack ()
+    void endAttack ()
     {
         anim.SetTrigger(EndAttackHash);
     }
